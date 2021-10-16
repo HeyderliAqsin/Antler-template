@@ -1,0 +1,57 @@
+//-----------Home start-------------
+#home3{
+    background:url(../images/head-bg.svg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+    &::before{
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(240deg, #a5215e 0%,#ee5586 100%);
+        z-index: -1;
+    }
+      .text{
+          position: absolute;
+          top:50%;
+          transform: translateY(-35%);
+          color: #fff;
+          .heading{    
+          h1{
+              font-size: 4.5rem;
+              font-weight: 700;
+          }
+          }
+          p{
+            font-size: 1.5rem;
+        }
+  }
+  .lang{
+      position: absolute;
+      top: 120px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      a{
+          text-decoration: none;
+          padding: 4px 6px;
+          margin-top: 5px;
+          border-radius: 5px;
+          font-size: 0.7rem;
+          font-weight: 700;
+      }
+      .EN{
+          background: $myColor1;
+          color:#000;
+      }
+      .PT{
+          background: #888;
+          color: #000;
+      }
+  }
+}
+//-----------Home end---------------

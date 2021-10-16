@@ -1,0 +1,105 @@
+$bg: #fff;
+$text: #7288a2;
+$gray: #4d5974;
+$lightgray: #EFEFEF;
+$blue: $myColor;
+
+#Accordion{
+    padding: 100px 0;
+    background: #EFEFEF;
+    .top-accord{    
+        text-align: center;
+        h1{
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+        span{
+            font-size: 1.2rem;
+        }
+    }
+    .accordion {
+        padding: 60px 0;
+        .accordion-item {
+          button[aria-expanded='true'] {
+            border-bottom: 1px solid $blue;
+          }
+          border-bottom: 1px solid #000;
+        }
+        button {
+          position: relative;
+          display: block;
+          text-align: left;
+          width: 100%;
+          padding: 1em 0;
+          font-size: 1.6rem;
+          font-weight: 600;
+          border:none;
+          background: #EFEFEF;
+          outline: none;    
+           &:focus {
+            &::after {
+              cursor: pointer;
+              color: $blue;
+              border: 1px solid $blue;
+            }
+          }
+          .accordion-title {
+            padding: 1em 1.5em 1em 0;
+          }
+          .icon {
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            right: 20px;
+            &::before {
+              display: block;
+              position: absolute;
+              content: '';
+              top: 9px;
+              left: 0px;
+              width: 11px;
+              height: 3px;
+              font-weight: 700;
+              background: currentColor;
+            }
+            &::after {
+              display: block;
+              position: absolute;
+              content: '';
+              top: 5px;
+              left: 4px;
+              width: 3px;
+              height: 11px;
+              background: #15212A;
+            }
+          }
+        }
+        button[aria-expanded='true'] {
+          color: $blue;
+          .icon {
+            &::after {
+              width: 0;
+            }
+          }
+          + .accordion-content {
+            opacity: 1;
+            max-height: 9em;
+            transition: all 200ms linear;
+            will-change: opacity, max-height;
+          }
+        }
+        .accordion-content {
+          opacity: 0;
+          max-height: 0;
+          overflow: hidden;
+          transition: opacity 200ms linear, max-height 200ms linear;
+          background:#EFEFEF;
+          p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin: 2em 0;
+            
+          }
+        }
+      }
+}

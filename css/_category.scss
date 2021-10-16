@@ -1,0 +1,88 @@
+//-----------Category start---------
+#Category{
+    background-color: #F6F6F6;
+    .category-item{
+        // box-shadow: 0 0 10px 0 #888;
+        border-radius: 15px;
+        position: relative;
+        top: -7%;
+        background: #fff;
+
+     .up{
+         padding: 40px;
+        img{
+            width: 50px;
+        }
+        h4{
+            padding: 20px 0;
+            color: $myColor;
+            font-weight: 700;
+        }
+        span{
+            color: #000;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        .btna{
+            padding: 30px 0;
+            transition:.3s ease-in-out;
+            &:hover{
+                transform:translateY(-5px);
+                a{
+                    background: #4C4A4A;
+                    color: #fff;
+                }
+            }
+           a{
+            text-decoration: none;
+            background: $myColor1;
+            color: #000;
+            border-radius: 50px;
+            font-weight: 700;
+            padding: 12px 25px;
+            box-shadow: 0 0 10px 0 #ccc;
+           }
+        }
+     }
+            .content-list{
+            background: $myColor;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            &#middle{
+                background: #A5215E;
+                .text{
+                    span{
+                        color:#E75082;
+                    }
+                }
+            }
+            ul{
+                padding: 40px;
+                li{
+                    .icon{
+                        .text{
+                            padding-left: 30px;
+                            span{
+                                color: #B32B66;
+                                font-size: 1.1rem;
+                            }
+                            h6{
+                                color: #fff;
+                            }
+                        }
+                      .img{
+                          padding: 5px;
+                        i{
+                            color: #fff;
+                            font-size: 2.5rem;
+                        }
+                      }
+                    }
+                }
+            }
+        }   
+    }
+  
+}
+//-----------Category end-----------
+

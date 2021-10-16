@@ -1,0 +1,111 @@
+//-----------Input start-----------
+#Input{ 
+    background: url(../images/cpupath.svg);
+    background-size: cover;     
+    background-repeat: no-repeat; 
+    .input-items{
+    transform: translateY(-80px);
+    border-radius: 10px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #888;
+    .top-input{
+        text-align: center;
+        h1{
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        p{
+            padding: 20px 0;
+        }
+    }
+     .input-left{
+            .user{
+                position: relative;
+                i{
+                    position: absolute;
+                    right: 20px;
+                    top: 15px;
+                    color: #ccc;
+                }
+                input{
+                    border-radius: 30px;
+                    padding: 10px 20px;
+                }
+            }
+            .doc{
+                position: relative;
+                i{
+                    position: absolute;
+                    right: 20px;
+                    top: 15px;
+                    color: #ccc;
+                }
+                input{
+                    border-radius: 30px;
+                    padding: 10px 20px;
+                }
+            }
+          
+        }
+        .input-right{
+            .E-mail{
+                position: relative;
+                i{
+                    position: absolute;
+                    right: 20px;
+                    top: 15px;
+                    color: #ccc;
+                }
+                input{
+                    border-radius: 30px;
+                    padding: 10px 20px;
+                }
+            }
+           #Depart{
+               border-radius: 30px;
+               padding: 10px 20px;
+           }
+           
+           .ticket{
+            #check{
+                background: $myColor;
+            }
+            label{
+                a{
+                    color: $myColor;
+                    text-decoration: none;
+                    border-bottom: 1px solid $myColor;
+                    &:hover{
+                        border-bottom: none;
+                    }
+                }
+            }
+            .btns{
+                background: $myColor1;
+                color: #000;
+                font-size: 1rem;
+                font-weight: 700;
+                border:none;
+                border-radius: 30px;
+                padding: 12px 25px;
+                margin-right: 10px;
+            }
+            .btnr{
+                background: #4C4A4A;
+                color: #fff;
+                font-size: 1rem;
+                font-weight: 700;
+                border:none;
+                border-radius: 30px;
+                padding: 12px 20px;
+            }
+           }
+          
+        }
+    
+    
+    }        
+}
+//-----------Input end-----------

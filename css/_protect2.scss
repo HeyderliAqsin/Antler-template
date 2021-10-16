@@ -1,0 +1,40 @@
+//-----------Protect start-----------
+#Protect2{
+    background-color: #F6F6F6;
+    .protect-item{
+        background-color: #fff;
+        border-radius: 15px;
+        padding:50px;
+        align-items: center;
+       .row{
+        .left{
+            padding-right: 40px;
+           
+        }
+        .right{
+            p{
+              font-size: 1.3rem;  
+              font-weight: 400;
+              padding: 10px 0;
+              a{
+                  text-decoration:none ;
+                  border-bottom: 1px solid $myColor;
+                  color: $myColor;
+              }
+            }
+            button{
+                border: none;
+                border-radius: 50px;
+                background-color: $myColor1;
+                padding:14px 25px;
+                a{
+                    color: #000;
+                    text-decoration: none;
+                    font-weight: 700;
+                }
+            }
+        }
+       }
+      
+    }
+}

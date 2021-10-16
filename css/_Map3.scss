@@ -1,0 +1,143 @@
+//-----------Gaming start-----------
+#Map3{
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background: linear-gradient(
+        -60deg,#3a6173 0,#16222a 100%)!important;
+    padding: 100px 0;
+    .top-head{
+        text-align: center;
+        h1{
+            color: #fff;
+            font-size: 3.3rem;
+            font-weight: 700;
+        }
+       p{
+           color: #888;
+           font-size: 1.2rem;
+          a{
+            &:first-child {
+                color: $myColor;
+                text-decoration: none;
+                border-bottom: 1px solid $myColor;
+            }
+          }
+          span{
+            color: $myColor;
+            
+        }
+       }
+    }
+    .bg{
+        position: relative; 
+        padding: 30px 0;
+            .Montreal{
+                position: absolute;
+                top: 34%;
+                left: 29%;
+                width: 22px;
+                height: 22px;
+                background-color:$myColor;
+                border:solid 2px #fff;;
+                color: $myColor;
+                cursor: pointer;
+                border-radius: 24px;
+                .pop-up{
+                    width: 250px;
+                    height: 150px;
+                    background-color: #fff;
+                    border-radius: 15px;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                    }                    
+                    h6{
+                        background-color: $myColor;
+                        color: #fff;
+                        padding: 10px;
+                        border-top-left-radius: 15px;
+                        border-top-right-radius: 15px;
+
+                    }
+                    p{
+                        color: #000;
+                        padding: 10px;
+                    }
+                 }
+            }
+            .new-york{
+                position: absolute;
+                top: 40%;
+                left: 26%;
+                width: 22px;
+                height: 22px;
+                background-color:$myColor;
+                border:solid 2px #fff;;
+                color: $myColor;
+                cursor: pointer;
+                border-radius: 24px;
+            }
+            .London{
+                position: absolute;
+                top: 33%;
+                left: 46%;
+                width: 22px;
+                height: 22px;
+                background-color:$myColor;
+                border:solid 2px #fff;;
+                color: $myColor;
+                cursor: pointer;
+                border-radius: 24px;
+            }
+            .Moscow{
+                position: absolute;
+                top: 29%;
+                left: 56%;
+                width: 22px;
+                height: 22px;
+                background-color:$myColor;
+                border:solid 2px #fff;;
+                color: $myColor;
+                cursor: pointer;
+                border-radius: 24px;
+            }
+            .Portugal{
+                position: absolute;
+                top: 42%;
+                left: 45%;
+                width: 22px;
+                height: 22px;
+                background-color:$myColor;
+                border:solid 2px #fff;;
+                color: $myColor;
+                cursor: pointer;
+                border-radius: 24px;
+            }
+            .Singapure{
+                position: absolute;
+                bottom:35%;
+                right: 21%;
+                width: 22px;
+                height: 22px;
+                background-color:$myColor;
+                border:solid 2px #fff;;
+                color: $myColor;
+                cursor: pointer;
+                border-radius: 24px;
+            }
+            .Hong-kong{
+                position: absolute;
+                bottom:46%;
+                right: 18%;
+                width: 22px;
+                height: 22px;
+                background-color:$myColor;
+                border:solid 2px #fff;;
+                color: $myColor;
+                cursor: pointer;
+                border-radius: 24px;
+            }
+    }
+         
+}
+//-----------Gaming end-----------

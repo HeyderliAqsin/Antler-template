@@ -1,0 +1,253 @@
+@media screen and (max-width: 992px){
+    #header{
+    .top-header{
+        justify-content: flex-end !important;
+    }
+    .bottom-header{
+     &.head-active{
+         padding: 10px 80px;
+         background: linear-gradient(
+             89deg,#a5215e 3%,#ee5586 98%);
+         width: 100%;
+ 
+     }
+        .logo{
+            a{
+                img{
+                    width: 100px;
+                }
+            }
+        }
+        nav{
+            ul{
+                 li{
+                     span{
+                        display: none;
+                     }
+                }
+            }
+            
+        }
+    }
+   }
+   #home{
+       .text{
+           .heading{
+               h1{
+                   font-size: 2.5rem !important;
+
+               }
+           }
+           .middle{
+               padding: 10px 0;
+               h2{
+                   font-size: 2.5rem !important;
+               }
+               span{
+                   font-size: 2.5rem !important;
+               }
+           }
+           .down{
+ 
+               h3{
+                   font-size: 1rem !important
+               }
+           }
+       }
+   }
+   #Protect{
+       .protect-item{
+           hr{
+               display: block !important;
+ 
+           }
+           .row{
+               padding: 40px 0;
+               .left{
+                   padding: 40px 0;
+               }
+             
+           }
+       }
+       .server{
+           .left{
+               padding: 10px;
+               
+               .img{
+                   width: 28%;
+                   position: relative;
+                   img{
+                     position: absolute;
+                      width: 50px; 
+                      right: 20px;
+                      bottom: 20px;
+                   }
+               }
+               .text{
+                   padding: 20px 10px;
+               }
+           }
+           .right{
+             padding: 10px;
+             
+             .img{
+                 width: 28%;
+                 position: relative;
+                 img{
+                   position: absolute;
+                    width: 50px; 
+                    right: 20px;
+                    bottom: 20px;
+                 }
+             }
+             .text{
+                 padding: 20px 10px;
+             }
+         }
+       }
+   }
+  #Category2{
+      margin-top: 0 !important;
+      .anima{
+          display: none;
+      }
+     
+  }
+   
+ }
+ 
+ 
+ @media screen and (max-width: 768px){
+     #header{
+         .top-header{
+            display: none !important;
+
+         }
+         .bottom-header{
+            &.head-active{
+               
+                padding: 0px 15px;
+             
+        
+            }
+             .menu-bar{
+                 cursor: pointer;
+             }
+             .logo{
+                 img{
+                     width: 120px;
+                 }
+             }
+             .menu-bar{
+                 i{
+                     color: #fff;
+                 }
+             }
+             nav{
+                 display: none !important;
+             }
+             .mobile{
+                 position: fixed;
+                 top: 0%;
+                 width: 100%;
+                 left: 0;
+                 bottom: -100%;
+                 opacity: 0;
+                 visibility: hidden;
+                 background-color: #15212A;
+                 height: 100vh;
+                 transition: .3s ease-in-out;
+                 z-index: -1;
+                 ul{
+                     padding: 80px 0;
+                     align-items: center;
+                    .dropped{
+                        text-align: center;
+                        .dropped-item{
+                            display: none;
+                            padding: 0;
+                            li{
+                                a{
+                                    color:#BCBCBC;
+                                    font-size: 1rem;
+                                }
+                                &:hover{
+                                    a{
+                                        color: $myColor1;
+                                    }
+                                }
+                            }
+                            
+                            
+                        }
+                    }
+                     li{
+                         padding: 10px 0;
+                         &:hover{
+                             a{
+                                 color: $myColor1;
+                             }
+                         }
+                         a{
+                             color:#BCBCBC;
+                             text-decoration: none;
+                             font-size: 1.5rem;
+                             font-weight: 700;
+                         }
+                        .tag{
+                            font-size: 0.8rem;
+                            background-color: $myColor;
+                            padding: 2px 5px;
+                            border-radius: 5px;
+                            font-weight: 500;
+                        }
+                        
+                         span{
+                             color: #BCBCBC;
+                         }
+                         button{
+                             background-color: $myColor1;
+                             border: none;
+                             border-radius: 30px;
+                             padding: 12px 20px;
+                             margin: 10px 0;
+                             transition: .4s ease-in-out;
+                             &:hover{
+                                 background-color: #4C4A4A;
+                                 transform: translateY(-7px);
+                                 box-shadow: 0 0 10px 0 #999;
+                                 a{
+                                     color: #fff;
+                                 }
+                             }
+                             a{
+                                 color:#000;
+                             }
+                         }
+                     }
+                 }
+                 &.mobile-active{
+                     visibility: visible;
+                     opacity: 1;
+                     bottom: 0;
+                   
+                 }
+             }
+         }
+ 
+     }
+     #footer{
+         .container{
+           form{
+                  display: none !important;
+            }
+         }
+     }
+     #Protect,#Protect2{
+        .protect-item{
+            img{
+                width: 380px;
+            }
+        }
+     }
+   }

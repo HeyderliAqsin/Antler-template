@@ -1,0 +1,29 @@
+//-----------Gaming start-----------
+#Gaming3{ 
+    background: url(../images/cpupath.svg);
+    background-size: cover;     
+    background-repeat: no-repeat; 
+    padding: 60px 0;
+    .category-item{
+     margin:20px 0 ;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #ccc;
+    .text{
+        padding-left: 60px;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            left: 30px;
+            height: 80px;
+            border-left: 1px solid #ccc;
+            
+        }
+    }
+    
+    }        
+}
+//-----------Gaming end-----------

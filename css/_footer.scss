@@ -1,0 +1,164 @@
+#footer{
+    position: relative;
+    background-color: #15212A;
+    z-index: 0;
+    .bg-logo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    position: absolute;
+    opacity: .3;
+    margin-top: 40px;
+    z-index: -1;
+    }
+  form{
+      padding: 20px 0;
+    .genInput{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        #subscribe{
+            width: 100%;
+            border-radius: 50px;
+            padding: 15px 20px;
+            border:none;
+            &:focus{
+                outline: none;
+            }
+        }
+        .sub{
+            padding: 15px 25px;
+            background-color: $myColor1;
+            border:none;
+            border-radius: 50px;
+            font-weight: 700;
+            position: absolute;
+            right: 0px;
+            transition: transform .3s ease-in-out;
+            &:hover{
+                background-color:#4C4A4A;
+                color: #fff;
+                transform: translateY(-3px);
+            }
+        }
+     
+     }
+     p{
+        color: #888;
+        text-align: center;
+        padding: 10px 0;
+    }
+  }
+    .item{
+        padding: 60px 0;
+        h4{
+            color: #fff;
+        }
+        ul{
+            li{
+                padding-top: 10px;
+                &:hover{
+                    a{
+                        color:$myColor1;
+                    }
+                }
+                a{
+                    color: #ccc;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-weight: 200;
+                     transition: .3s ease-in-out;
+                }
+            }
+        }
+        span{
+            color: #ccc;
+            padding: 10px 0;
+            font-size: .9rem;
+        }
+        .icons{
+            padding: 15px 0;
+            ul{
+                li{
+                    margin-right: 10px;
+                    &:hover{
+                        i{
+                            color: $myColor1;
+                            cursor: pointer;
+                        }
+                    }
+                    i{
+                        color: $myColor;
+                        font-size: 1.3rem;
+                        background-color: #fff;
+                        padding: 8px 12px;
+                        border-radius: 10px;
+                        transition: .3s ease-in-out;
+
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom{
+        padding: 40px 0;
+        .footer-left{
+            ul{
+                li{
+                    margin-left: 5px;
+                   &.transY{
+                       transition: transform .3s ease-in-out;
+                    &:hover{
+                        transform: translateY(-5px);
+                        cursor: pointer;
+                    }
+                   }
+                   span{
+                    color:#000;
+                    padding: 12px;
+                    border-radius: 15px;
+                    font-weight: 700;
+                    &.en{
+                        background-color: $myColor1;
+                       }
+                    &.pt{
+                           background-color: #888;
+                       }
+                   }
+                   &.menu-item{
+                       color: #ccc;
+                       margin-left: 20px;
+                       .c-pink{
+                           color: $myColor;
+                           padding: 0;
+                       }
+                       a{
+                           text-decoration: none;
+                           color: #ccc;
+                           transition: .3s ease;
+                           &:hover{
+                               color:$myColor1
+                           }
+                       }
+                   }
+                }
+            }
+        }
+        .footer-right{
+            color: #ccc;
+            span{
+                padding-right: 10px;
+            }
+            i{
+                font-size: 2.5rem;
+                padding-right: 5px;
+                transition: .3s ease-in-out;
+                &:hover{
+                    color: $myColor1;
+                }
+            }
+        }
+    }
+}
